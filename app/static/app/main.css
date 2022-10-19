@@ -1,0 +1,29 @@
+body{
+	margin: 0px;
+
+}
+.round{
+	width: 5rem;
+	margin: 0% 5% 0% 5%;
+}
+#home-brand{
+	font-family: 'Roboto', sans-serif;
+}
+
+#picoftheday{
+	width:100%;
+	height: 39rem;
+}
+#homeHeader{
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.descPOD{
+	position: absolute;
+	top: 65%;
+	left: 30%;
+	color: white;
+	font-family: 'Laila', sans-serif;
+	font-size: 2rem;
+}

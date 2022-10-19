@@ -1,0 +1,33 @@
+{%load static%}
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="{%static 'app/main.css'%}">
+	<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Laila:wght@700&family=Roboto:wght@900&display=swap" rel="stylesheet">
+	<title> NASA App</title>
+</head>
+<body>
+	<header id="homeHeader">
+		<div>
+			<img class="round" src="https://api.nasa.gov/assets/img/favicons/favicon-192.png">
+		</div>
+	</header>
+	<main>
+		<div>
+		<div class="homeImg">
+			<img id="picoftheday" src="{{dataa.url}}">
+		</div>
+		<div class="descPOD">
+			<h6 style="margin-left: 30%; margin-bottom: 0%;">Picture of the day</h6>
+			<h4 class="podTitle" style=" margin-top: 1%;">{{dataa.title}}</h4>
+		</div>
+		</div>
+	</main>
+	
+	
+	
+</body>
+</html>
